@@ -8,7 +8,7 @@ public class Main {
 
         try {
             Scanner sc = new Scanner(new File("students_ai_usage.csv"));
-            sc.nextLine(); // skip header
+            sc.nextLine(); //skip header
 
             while (sc.hasNextLine()) {
                 String line = sc.nextLine().trim();
